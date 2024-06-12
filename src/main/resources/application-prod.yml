@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://62.234.57.56:3306/usercenter
+  session:
+    timeout: 86400 # session失效时间为1天后
